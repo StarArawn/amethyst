@@ -15,6 +15,8 @@ The format is based on [Keep a Changelog][kc], and this project adheres to
 - Implement `Debug` for `ProgressCounter` and `ProgressCounterTracker`. ([#1973])
 - Added a custom render pass Example. ([#1904])
 - Add an entry for `examples/tiles` to the examples readme. ([#1978])
+- Allow user to specify custom completion function in `amethyst_test::WaitForLoad`. ([#1984])
+- Log warning when `amethyst_test::WaitForLoad` has not completed in 10 seconds. ([#1984])
 
 ### Changed
 
@@ -39,6 +41,7 @@ The format is based on [Keep a Changelog][kc], and this project adheres to
 [#1974]: https://github.com/amethyst/amethyst/pull/1974
 [#1978]: https://github.com/amethyst/amethyst/pull/1978
 [#1983]: https://github.com/amethyst/amethyst/pull/1983
+[#1984]: https://github.com/amethyst/amethyst/pull/1984
 
 ## [0.13.3] - 2019-10-4
 
